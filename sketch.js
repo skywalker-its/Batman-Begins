@@ -8,7 +8,7 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
   var canvas = createCanvas(400,800);
-  umbrella = new Umbrella(280, 590, 225);
+  umbrella = new Umbrella(180, 590, 225);
 
 }
 
