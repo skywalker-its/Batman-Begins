@@ -7,7 +7,7 @@ const Bodies = Matter.Bodies;
 function setup() {
   engine = Engine.create();
   world = engine.world;
-  var canvas = createCanvas(400,800);
+  var canvas = createCanvas(400,600);
   umbrella = new Umbrella(180, 590, 225);
 
 }
